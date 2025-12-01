@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Страница-1" id="cUMs8zWfhF7-2y01LYAa">
+    <mxGraphModel dx="1810" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xCLp_3Adlx-r4diopCYK-4" edge="1" parent="1" source="xCLp_3Adlx-r4diopCYK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xCLp_3Adlx-r4diopCYK-2" value="Изображение после АП">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Аффинные преобразования&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-5" edge="1" parent="1" source="xCLp_3Adlx-r4diopCYK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xCLp_3Adlx-r4diopCYK-3" value="Обработанное изображение">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Применение фильтра" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-12" edge="1" parent="1" source="xCLp_3Adlx-r4diopCYK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Измененное&amp;nbsp;&lt;div&gt;изображение в облаке&lt;/div&gt;">
+          <mxGeometry relative="1" x="1" y="-23" as="geometry">
+            <mxPoint x="10" y="-3" as="offset" />
+            <mxPoint x="820" y="359.68965517241384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Синхронизация&amp;nbsp;&lt;br&gt;с облаком" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-7" edge="1" parent="1" source="xCLp_3Adlx-r4diopCYK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="xCLp_3Adlx-r4diopCYK-1" value="Обрезанное&amp;nbsp;&lt;div&gt;изображение&lt;/div&gt;">
+          <mxGeometry relative="1" y="30" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Обрезка изображения" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Изображение">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-40" y="170" as="sourcePoint" />
+            <mxPoint x="20" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xCLp_3Adlx-r4diopCYK-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="80" />
+            </Array>
+            <mxPoint x="260" y="80" as="sourcePoint" />
+            <mxPoint x="130" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="Настройки пользователя">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="20" as="geometry">
+            <mxPoint x="-20" y="-20" as="offset" />
+            <mxPoint x="259.66" y="70" as="sourcePoint" />
+            <mxPoint x="259.66" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="80" />
+            </Array>
+            <mxPoint x="260" y="80" as="sourcePoint" />
+            <mxPoint x="459.66" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="360" />
+            </Array>
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="80" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Web-интерфейс">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="-23" as="geometry">
+            <mxPoint x="-3" y="10" as="offset" />
+            <mxPoint x="279.65999999999997" y="380" as="sourcePoint" />
+            <mxPoint x="279.65999999999997" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="360" />
+            </Array>
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="459.65999999999997" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCLp_3Adlx-r4diopCYK-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="Протокол синхронизации">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="20" as="geometry">
+            <mxPoint x="-20" y="-20" as="offset" />
+            <mxPoint x="669.66" y="260" as="sourcePoint" />
+            <mxPoint x="669.66" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Страница-1" id="yUpYlGHigozZqB77frC5">
+    <mxGraphModel dx="1810" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-7" edge="1" parent="1" source="VgZeYZ47bg6B-sNUWP9K-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VgZeYZ47bg6B-sNUWP9K-2" value="Изображение в облаке">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Загрузка в облако&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;А1&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-9" edge="1" parent="1" source="VgZeYZ47bg6B-sNUWP9K-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Обработанное&amp;nbsp;&lt;div&gt;изображение&lt;/div&gt;">
+          <mxGeometry relative="1" x="1" y="40" as="geometry">
+            <mxPoint x="40" y="40" as="offset" />
+            <mxPoint x="660" y="290.0344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Обработка изображения&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;А2&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Изображение">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="22" as="geometry">
+            <mxPoint x="-20" y="12" as="offset" />
+            <mxPoint x="40" y="189.66" as="sourcePoint" />
+            <mxPoint x="120" y="189.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Сервер">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="14" as="geometry">
+            <mxPoint x="4" y="10" as="offset" />
+            <mxPoint x="200" y="400" as="sourcePoint" />
+            <mxPoint x="199.66" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VgZeYZ47bg6B-sNUWP9K-1" value="Данные для авторизации">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="-20" as="geometry">
+            <mxPoint x="20" y="-20" as="offset" />
+            <mxPoint x="200" y="90" as="sourcePoint" />
+            <mxPoint x="220" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="Настройки пользователя">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="-20" as="geometry">
+            <mxPoint x="20" y="-20" as="offset" />
+            <mxPoint x="490" y="200" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Web-Интерфейс&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="-10" as="geometry">
+            <mxPoint x="-10" y="10" as="offset" />
+            <Array as="points">
+              <mxPoint x="560" y="440" />
+            </Array>
+            <mxPoint x="240" y="440" as="sourcePoint" />
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="VgZeYZ47bg6B-sNUWP9K-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="440" as="sourcePoint" />
+            <mxPoint x="300" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="VgZeYZ47bg6B-sNUWP9K-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="360" />
+            </Array>
+            <mxPoint x="200" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="Протокол&amp;nbsp;&lt;div&gt;синхронизации&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.7872" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="570" y="90" />
+            </Array>
+            <mxPoint x="270" y="90" as="sourcePoint" />
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgZeYZ47bg6B-sNUWP9K-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="-20" as="geometry">
+            <mxPoint x="20" y="-20" as="offset" />
+            <mxPoint x="270" y="70" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
