@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Страница-1" id="xuB5qgDdzjO70CKPI-NR">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x7TCFXA6wKKo1178YrSH-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="0" vertex="1">
+          <mxGeometry height="80" width="160" x="290" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-9" parent="x7TCFXA6wKKo1178YrSH-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Работа с изображениями" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-10" parent="x7TCFXA6wKKo1178YrSH-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="28" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-17" edge="1" parent="1" source="x7TCFXA6wKKo1178YrSH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="x7TCFXA6wKKo1178YrSH-8" value="Передача данных">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-12" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Пользователь" vertex="1">
+          <mxGeometry height="50" width="100" x="280" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-14" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="30" width="100" x="690" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-1" parent="x7TCFXA6wKKo1178YrSH-14" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D1" vertex="1">
+          <mxGeometry height="30" width="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-13" parent="x7TCFXA6wKKo1178YrSH-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="База данных" vertex="1">
+          <mxGeometry height="30" width="60" x="28" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-24" edge="1" parent="1" source="x7TCFXA6wKKo1178YrSH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.283;exitY=0.14;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="x7TCFXA6wKKo1178YrSH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-25" connectable="0" parent="x7TCFXA6wKKo1178YrSH-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Преобразования&amp;nbsp;&lt;div&gt;изображения&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0889" y="3" as="geometry">
+            <mxPoint x="-47" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-16" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Web-интерфейс" vertex="1">
+          <mxGeometry height="50" width="180" x="280" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-23" edge="1" parent="1" source="x7TCFXA6wKKo1178YrSH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" target="x7TCFXA6wKKo1178YrSH-1" value="Отправка и получение данных">
+          <mxGeometry relative="1" x="-0.0041" y="-9" as="geometry">
+            <mxPoint x="9" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-28" edge="1" parent="1" source="x7TCFXA6wKKo1178YrSH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="x7TCFXA6wKKo1178YrSH-8" value="Механизм загрузки в облако">
+          <mxGeometry relative="1" x="-0.1923" y="-15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7TCFXA6wKKo1178YrSH-27" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Сервер" vertex="1">
+          <mxGeometry height="50" width="100" x="550" y="690" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

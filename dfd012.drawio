@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Страница-1" id="nSj21JjDd7f-NSU4natF">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="A1" vertex="1">
+          <mxGeometry height="70" width="160" x="70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-2" parent="Rc2HgrUzzAPez_xh_-WR-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Модуль загрузки в облако" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-3" parent="Rc2HgrUzzAPez_xh_-WR-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="18" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-20" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="Rc2HgrUzzAPez_xh_-WR-7" value="Инструменты&lt;br&gt;преобразования&lt;br&gt;изображений">
+          <mxGeometry relative="1" x="-0.32" y="-35" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-5" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Web-интерфейс" vertex="1">
+          <mxGeometry height="50" width="160" x="480" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-6" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Сервер" vertex="1">
+          <mxGeometry height="50" width="100" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-22" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Rc2HgrUzzAPez_xh_-WR-12" value="Отображение измененного&amp;nbsp;&lt;div&gt;изображения&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.2091" y="-80" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="570" y="298" />
+              <mxPoint x="570" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" value="A2" vertex="1">
+          <mxGeometry height="100" width="160" x="400" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-19" edge="1" parent="Rc2HgrUzzAPez_xh_-WR-7" source="Rc2HgrUzzAPez_xh_-WR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-8" parent="Rc2HgrUzzAPez_xh_-WR-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Модуль обработки изображения" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-9" parent="Rc2HgrUzzAPez_xh_-WR-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="30" width="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-10" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D1" vertex="1">
+          <mxGeometry height="30" width="100" x="710" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="База данных" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-17" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Rc2HgrUzzAPez_xh_-WR-1" value="Данные для авторизации">
+          <mxGeometry relative="1" x="-0.4545" y="40" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-21" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rc2HgrUzzAPez_xh_-WR-7" value="Параметры изменения изображений">
+          <mxGeometry relative="1" x="-0.4157" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-23" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.9;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="Rc2HgrUzzAPez_xh_-WR-1" value="Изображение">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-12" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Пользователь" vertex="1">
+          <mxGeometry height="50" width="100" x="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-13" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.19;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="Rc2HgrUzzAPez_xh_-WR-10" value="Загрузка в БД">
+          <mxGeometry relative="1" x="0.4137" y="18" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-15" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Rc2HgrUzzAPez_xh_-WR-1" value="Механизм загрузки в облако">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="520" />
+            </Array>
+            <mxPoint x="60" y="500" as="sourcePoint" />
+            <mxPoint x="40" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-16" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="Механизмы предподготовки&amp;nbsp;&lt;div&gt;изображения&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0375" y="20" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="520" />
+              <mxPoint x="500" y="401" />
+              <mxPoint x="200" y="401" />
+            </Array>
+            <mxPoint x="200" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rc2HgrUzzAPez_xh_-WR-18" edge="1" parent="1" source="Rc2HgrUzzAPez_xh_-WR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Rc2HgrUzzAPez_xh_-WR-8" value="Изображение&amp;nbsp;&lt;div&gt;в облаке&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
